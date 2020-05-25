@@ -15,7 +15,7 @@ export const getName = path => {
       .replace("/", "")
   )
   name = title(name, {
-    special: ["iPhone", "iPad", "MacBook", "iOS", "MDX", "UI"],
+    special: ["iPhone", "iPad", "MacBook", "iOS", "MDX", "UI", "AP"],
   })
   if (hasDate(path) && name === "") {
     const date = new Date(getDate(path))

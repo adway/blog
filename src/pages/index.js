@@ -24,10 +24,13 @@ export default props => {
       <h1>Thoughts.</h1>
       <Styled.h2 sx={{ color: "gray" }}>A blog by Adway Wadekar</Styled.h2>
       <Text>
-        I want to write more, but I've never been able to get myself to do it.
-        My hope in making this blog, is to push myself to write as much as I
-        can. I think this is the perfect time to get started, especially during
-        this worldwide crisis.
+        Why write? Well, that's an interesting question. Honestly, I've always
+        wanted a space where I can chronicle my thoughts so that I can look back
+        upon them later. Why write publicly? Well, that's an interesting
+        question too. Historians base much of their research on the written
+        record. Without writing, we would know very little about our past. We
+        all come from somewhere and we all have our own stories. So here's mine.
+        Maybe it'll be of use to someone later.
       </Text>
       <hr />
       <ul
