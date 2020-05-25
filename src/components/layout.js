@@ -1,6 +1,8 @@
 /** @jsx jsx */
-import { jsx, Styled, useColorMode, NavLink } from "theme-ui"
+import { jsx, Styled, useColorMode, NavLink, Container, Box } from "theme-ui"
 import { Link } from "gatsby"
+import Meta from "./meta"
+import { getName } from "../util"
 
 const ColorButton = ({ mode, ...props }) => (
   <button
@@ -52,6 +54,10 @@ const ColorButton = ({ mode, ...props }) => (
 
 export default props => {
   const [mode, setMode] = useColorMode()
+  const path = props.location.pathname
+  const home = path === "/"
+  const base = "Thoughts."
+  const name = getName(path)
   return (
     <div
       sx={{
@@ -61,6 +67,7 @@ export default props => {
         flexDirection: "column",
       }}
     >
+      <Meta title={home ? base : `${name} – ${base}`} name={name} />
       <header
         sx={{
           width: "100%",
@@ -107,6 +114,21 @@ export default props => {
           {props.children}
         </div>
       </main>
+      <Box as="footer" sx={{ textAlign: "center", px: 2, py: [3, 4] }}>
+        <Container
+          sx={{
+            alignItems: "center",
+            justifyContent: "center",
+            color: "text",
+            a: { color: "text" },
+          }}
+        >
+          &copy;{" "}
+          <a href="https://adway.io" target="_blank">
+            Adway S. Wadekar
+          </a>
+        </Container>
+      </Box>
     </div>
   )
 }

@@ -7,6 +7,9 @@ var plugins = [{
     },{
       plugin: require('/Volumes/Samsung_T5/src/blog/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx",".md"]},
+    },{
+      plugin: require('/Volumes/Samsung_T5/src/blog/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
