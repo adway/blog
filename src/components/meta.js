@@ -15,5 +15,6 @@ export default ({
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
+    <link rel="shortcut icon" href="/favicon.ico" />
   </Helmet>
 )
