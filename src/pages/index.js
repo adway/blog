@@ -3,7 +3,6 @@ import { jsx, Styled, Text } from "theme-ui"
 import { graphql, Link, useStaticQuery } from "gatsby"
 import { hasDate, getDate, getName } from "../util"
 import { filter, includes, isEmpty, orderBy } from "lodash"
-import { format } from "date-fns"
 
 export default props => {
   const data = useStaticQuery(pages)

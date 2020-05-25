@@ -18,7 +18,9 @@ export const getName = path => {
     special: ["iPhone", "iPad", "MacBook", "iOS", "MDX", "UI"],
   })
   if (hasDate(path) && name === "") {
-    name = format(new Date(getDate(path)), "MMMM d, yyyy")
+    const date = new Date(getDate(path))
+    date.setDate(date.getDate() + 1) // this is some really janky code lmao
+    name = format(date, "MMMM d, yyyy")
   }
   return name
 }
