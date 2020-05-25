@@ -83,7 +83,6 @@ export default props => {
           to="/"
           sx={{
             fontSize: 1,
-            mr: 3,
             color: "text",
             fontWeight: "heading",
           }}
