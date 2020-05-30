@@ -64,6 +64,9 @@ export default {
         color: "secondary",
       },
     },
+    p: {
+      textAlign: "justify",
+    },
   },
   h1: {
     variant: "text.heading",

@@ -21,9 +21,9 @@ export default props => {
   )
   return (
     <div>
-      <h1>Thoughts.</h1>
+      <Styled.h1>Thoughts.</Styled.h1>
       <Styled.h2 sx={{ color: "gray" }}>A blog by Adway Wadekar</Styled.h2>
-      <Text>
+      <Styled.p>
         Why write? Well, that's an interesting question. Honestly, I've always
         wanted a space where I can chronicle my thoughts so that I can look back
         upon them later. Why write publicly? Well, that's an interesting
@@ -31,7 +31,7 @@ export default props => {
         record. Without writing, we would know very little about our past. We
         all come from somewhere and we all have our own stories. So here's mine.
         Maybe it'll be of use to someone later.
-      </Text>
+      </Styled.p>
       <hr />
       <ul
         sx={{

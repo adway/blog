@@ -1,4 +1,4 @@
-# My Thoughts on the 2020 AP Exams
+# A Defense of the 2020 AP Exams
 
 The 2020 AP exams are going to be something to look back at for a long, long time. Technology failures, questions about fairness, the fact that some of the tests only had _one_ question—these things that people have thought about—and rightfully so. However, while I am no fan of the College Board like most of my peers, I have to say, I think they did some real good given the global pandemic that unfortunately continues to rage onwards.
 
