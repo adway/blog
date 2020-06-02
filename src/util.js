@@ -13,6 +13,7 @@ export const getName = path => {
       .replace(/(\d{4}-\d{2}-\d{2})/, "")
       .replace("-", " ")
       .replace("/", "")
+      .replace("posts", "")
   )
   name = title(name, {
     special: [
