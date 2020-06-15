@@ -24,7 +24,7 @@ export default props => {
       <Styled.h1>Thoughts.</Styled.h1>
       <Styled.h2 sx={{ color: "gray" }}>A blog by Adway Wadekar</Styled.h2>
       <Styled.p>
-        Why write? Well, that's an interesting question. Honestly, I've always
+        Why write? Well, that is an interesting question. Honestly, I've always
         wanted a space where I can chronicle my thoughts so that I can look back
         upon them later. Why write publicly? Well, that's an interesting
         question too. Historians base much of their research on the written
