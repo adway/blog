@@ -9,6 +9,7 @@ export default {
     accent: "hsl(280, 100%, 57%)",
     muted: "#f9f9fc",
     gray: "#555",
+    construction: "#ff8c37",
     modes: {
       dark: {
         text: "#fff",
@@ -48,6 +49,13 @@ export default {
     small: {
       fontSize: 0,
     },
+  },
+  radii: {
+    small: 4,
+    default: 8,
+    extra: 12,
+    ultra: 16,
+    circle: 99999,
   },
   styles: {
     root: {
