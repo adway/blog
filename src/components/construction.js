@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, Text, Flex } from "theme-ui"
+import { Text, Flex } from "theme-ui"
 import { AlertTriangle } from "react-feather"
 
 export default () => (

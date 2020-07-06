@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Styled, useColorMode, NavLink, Container, Box } from "theme-ui"
+import { jsx, useColorMode, NavLink, Container, Box } from "theme-ui"
 import { Link } from "gatsby"
 import Meta from "./meta"
 import { getName } from "../util"

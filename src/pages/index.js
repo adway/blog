@@ -12,6 +12,7 @@ export default props => {
   )
   const links = orderBy(
     nodes.map(node => {
+      console.log(node.path)
       node.name = getName(node.path)
       node.date = hasDate(node.path) ? getDate(node.path) : null
       return node
@@ -21,9 +22,9 @@ export default props => {
   )
   return (
     <div>
-      <Styled.h1>Thoughts.</Styled.h1>
-      <Styled.h2 sx={{ color: "gray" }}>A blog by Adway Wadekar</Styled.h2>
-      <Styled.p>
+      <h1>Thoughts.</h1>
+      <h2 sx={{ color: "gray" }}>A blog by Adway Wadekar</h2>
+      <Text sx={{ textAlign: "justify" }}>
         Why write? Well, that is an interesting question. Honestly, I've always
         wanted a space where I can chronicle my thoughts so that I can look back
         upon them later. Why write publicly? Well, that's an interesting
@@ -31,7 +32,7 @@ export default props => {
         record. Without writing, we would know very little about our past. We
         all come from somewhere and we all have our own stories. So here's mine.
         Maybe it'll be of use to someone later.
-      </Styled.p>
+      </Text>
       <hr />
       <ul
         sx={{

@@ -1,5 +1,5 @@
 import title from "title"
-import { isEmpty, startCase } from "lodash"
+import { isEmpty, upperFirst } from "lodash"
 import { format } from "date-fns"
 
 export const getDate = path => {
@@ -8,13 +8,16 @@ export const getDate = path => {
 }
 
 export const getName = path => {
-  let name = startCase(
+  console.log(path)
+  let name = upperFirst(
     path
       .replace(/(\d{4}-\d{2}-\d{2})/, "")
-      .replace("-", " ")
-      .replace("/", "")
       .replace("posts", "")
+      .replace(/-/g, " ")
+      .replace(/\//g, "")
+      .replace(/_/g, " ")
   )
+
   name = title(name, {
     special: [
       "iPhone",

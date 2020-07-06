@@ -10,6 +10,7 @@ export default {
     muted: "#f9f9fc",
     gray: "#555",
     construction: "#ff8c37",
+    northwestern: "#4e2a84",
     modes: {
       dark: {
         text: "#fff",
@@ -19,6 +20,7 @@ export default {
         accent: "#f0f",
         muted: "#111",
         gray: "#888",
+        northwestern: "#836eaa",
       },
     },
   },
@@ -42,6 +44,9 @@ export default {
     wide: 1280,
   },
   text: {
+    default: {
+      textAlign: "justify",
+    },
     heading: {
       fontWeight: "heading",
       lineHeight: "heading",
