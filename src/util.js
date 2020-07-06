@@ -17,6 +17,8 @@ export const getName = path => {
       .replace(/\//g, "")
       .replace(/_/g, " ")
   )
+  // Custom titles with special characters
+  name = name.replace("What's in a name", "What's in a name?")
 
   name = title(name, {
     special: [
