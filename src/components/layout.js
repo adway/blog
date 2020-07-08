@@ -76,7 +76,8 @@ export default props => {
           maxWidth: "container",
           mx: "auto",
           px: 3,
-          py: 4,
+          pt: 4,
+          pb: 2,
         }}
       >
         <Link
@@ -113,7 +114,7 @@ export default props => {
           {props.children}
         </div>
       </main>
-      <Box as="footer" sx={{ textAlign: "center", px: 2, py: [3, 4] }}>
+      <Box as="footer" sx={{ textAlign: "center", px: 3, py: [3, 4] }}>
         <Container
           sx={{
             alignItems: "center",
