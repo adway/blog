@@ -8,8 +8,8 @@ export default () => (
       textAlign: "center",
       color: "white",
       bg: "construction",
-      py: 2,
-
+      py: 3,
+      mt: 4,
       borderRadius: "default",
       justifyContent: "center",
       alignItems: "center",
