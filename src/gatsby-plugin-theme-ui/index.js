@@ -38,9 +38,9 @@ export default {
     heading: 700,
     bold: 600,
   },
-  fontSizes: [16, 18, 20, 24, 32, 48, 64, 72, 96],
+  fontSizes: [14, 18, 24, 28, 36, 48, 64, 72, 96, 128],
   sizes: {
-    container: 900,
+    container: 768,
     wide: 1280,
   },
   text: {
